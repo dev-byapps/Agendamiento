@@ -1,0 +1,158 @@
+/* Contenedor general del calendario */
+#calendar {
+    background-color: #ffffff;
+   border: 1px solid #e0e0e0;
+    padding: 10px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+/* Barra de herramientas (cabecera del calendario) */
+.fc .fc-toolbar {
+    background-color: #f1f3f4;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.fc .fc-toolbar-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #202124;
+}
+
+.fc .fc-button {
+    background-color: #1a73e8;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.fc-button:hover {
+    background-color: #135aba;
+}
+
+.fc-button:active {
+    background-color: #0d47a1;
+}
+
+.fc-button.fc-button-primary {
+    background-color: #e8f0fe;
+    color: #1a73e8;
+}
+
+.fc-button.fc-button-primary:hover {
+    background-color: #d2e3fc;
+}
+
+/* Celda del día en el calendario (vista mensual) */
+.fc-daygrid-day {
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+}
+
+.fc-daygrid-day-number {
+    color: #5f6368;
+    font-size: 12px;
+    padding: 4px;
+    text-align: center;
+}
+
+/* Días actuales */
+.fc-day-today {
+    background-color: #e8f0fe;
+}
+
+/* Estilo de eventos */
+.fc-event {
+    background-color: #4285f4;
+    color: white;
+    border-radius: 4px;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.fc-event:hover {
+    background-color: #357ae8;
+}
+
+/* Estilo de eventos de colores personalizados (similitud a Google Calendar) */
+.fc-event-google-blue {
+    background-color: #4285f4;
+}
+
+.fc-event-google-green {
+    background-color: #34a853;
+}
+
+.fc-event-google-yellow {
+    background-color: #fbbc04;
+}
+
+.fc-event-google-red {
+    background-color: #ea4335;
+}
+
+.fc-event-google-purple {
+    background-color: #9c27b0;
+}
+
+/* Estilo de la vista lista */
+.fc-list {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+}
+
+.fc-list-event {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.fc-list-event:hover {
+    background-color: #f1f3f4;
+}
+
+.fc-list-event-title {
+    font-size: 14px;
+    color: #202124;
+}
+
+.fc-list-event-time {
+    color: #5f6368;
+}
+
+/* Sombra y estilo de los popovers */
+.fc-popover {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.fc-popover-header {
+    background-color: #4285f4;
+    color: white;
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.fc-popover-body {
+    padding: 10px;
+}
+
+/* Ajustes para la vista del calendario */
+.fc-scrollgrid-sync-inner {
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+
+.fc-daygrid {
+    border: none;
+}
